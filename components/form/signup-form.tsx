@@ -50,13 +50,10 @@ export default function SignupForm() {
       },
       {
         onSuccess: () => {
-          console.log("ici 1");
-
           router.push("/auth");
+          router.refresh();
         },
         onError: (error) => {
-          console.log("ici 2", error?.error?.message);
-
           toast.error(error?.error?.message);
         },
       }
