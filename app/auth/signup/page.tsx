@@ -1,5 +1,4 @@
 import SignupForm from "@/components/form/signup-form";
-import PageLayout from "@/components/page-layout";
 import {
   Card,
   CardContent,
